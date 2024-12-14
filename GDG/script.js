@@ -17,6 +17,7 @@ function updateCountdown() {
     if (timeLeft < 0) {
         clearInterval(countdownInterval);
         document.querySelector(".countdown").innerHTML = "<h2>Happy New Year!</h2>";
+        window.location.href = "index_video.html";
     }
 }
 
@@ -38,4 +39,4 @@ function updateQuote() {
     quoteElement.textContent = quotes[currentQuoteIndex];
 }
 
-setInterval(updateQuote, 4000); // Change quotes every 4 seconds
+setInterval(updateQuote, 4000);
