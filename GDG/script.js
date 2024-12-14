@@ -16,8 +16,8 @@ function updateCountdown() {
 
     if (timeLeft < 0) {
         clearInterval(countdownInterval);
-        document.querySelector(".countdown").innerHTML = "<h2>Happy New Year!</h2>";
-        window.location.href = "index_video.html";
+        document.querySelector(".countdown").innerHTML = "<h1>Happy New Year!</h1>";
+        window.location.href = "./preview/index_video.html";
     }
 }
 
