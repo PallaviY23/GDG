@@ -24,7 +24,6 @@ function updateCountdown() {
 const countdownInterval = setInterval(updateCountdown, 1000);
 
 const quotes = [
-    '"Approach the New Year with resolve to find the opportunities hidden in each new day."',
     '"Learn from yesterday, live for today, hope for tomorrow."',
     '"This years book, at midnight turns to footnote in the next"',
     '"You are never too old to set another goal or to dream a new dream."',
