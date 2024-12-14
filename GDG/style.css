@@ -61,17 +61,33 @@ h1 {
 }
 
 .info {
+    display: flex;
     background: rgba(0, 0, 0, 0.7);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-    margin: 10%;
+    margin: 5%;
+    font-family: cursive;
+}
+
+.discription {
+    text-align: left;
+}
+
+.summary {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
 }
 
 .image {
-    height: 500px;
-    border-radius: 250px;
+    height: 300px;
+    border-radius: 150px;
     margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
 }
 .preview {
     padding: 5px;
